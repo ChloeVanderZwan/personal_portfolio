@@ -68,8 +68,11 @@ html {
   z-index: 3;
 }
 .box {
-  width: 300px;
-  height: 200px;
+  width: 100%; /* Makes the image fit inside the box */
+  height: 100%; /* Ensures it fills the box */
+  object-fit: cover; /* Crops to fit */
+  border-radius: 10px; /* Optional: rounded corners */
+
   background-color: lightblue;
   padding: 20px;
   border-radius: 10px;
