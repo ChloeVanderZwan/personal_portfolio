@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav><button onclick="window.location.href='index.html'">home</button>
+        <button onclick="window.location.href='about.html'">About</button>
+        <button onclick="window.location.href='portfolio.html'">Portfolio</button>
+        <button onclick="window.location.href='contact.html'">Contact</button></nav>   
+    </nav>
+    <div class="container"></div>    
+    <div class="foreground"><h1></h1>
+      <div class="form-container">
+        <h2>Contact Me</h2>
+        <form action="success.html" method="POST">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required><br>
+      
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required><br>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" ></textarea><br>
+      
+          <button type="submit">Submit</button>
+      </form>
+  </body>
+</html>
